@@ -73,7 +73,7 @@
         </ol>
         <div class="caraousel-inner" role="listbox">
             <?php
-                for($i=0; i<5; $i++){
+                for($i=0; $i<5; $i++){
                     echo '<div class="item ';
                     echo ($i==0) ? "active" : "";
                     echo '">';
